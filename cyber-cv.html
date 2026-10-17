@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CV Maker · GO-TECH Cyber</title>
+<meta name="description" content="GO-TECH brings businesses online and automates their daily routines: websites, web apps, branding, graphic design, social media and advertising in Limuru, Kenya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem("gotech-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="GO-TECH home: Build, Brand, Grow"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span><span class="wm-tag">BUILD • BRAND • GROW</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul class="nav-links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="printing.html">Printing</a></li><li><a href="automation.html">Automation</a></li><li><a href="customers.html">Customers</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="cyber.html" class="nav-cyber" aria-current="page">GO-TECH Cyber</a></li></ul>
+      <a class="btn btn-primary nav-cta" href="contact.html">Get started</a>
+      <button class="theme-btn" type="button" aria-label="Switch to dark mode" title="Switch light / dark mode"><svg class="i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </nav>
+  </div>
+</header>
+<div class="cyber-subnav"><div class="wrap"><span class="cyber-badge small"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span> <b>Cyber</b></span><nav aria-label="GO-TECH Cyber pages"><a href="cyber.html">Overview</a><a href="cyber-government.html">Government</a><a href="cyber-kra.html">KRA & tax</a><a href="cyber-education.html">Education</a><a href="cyber-jobs.html">Jobs & documents</a><a href="cyber-print.html">Print & office</a><a href="cyber-stickers.html">M-PESA stickers</a><a href="cyber-letter.html">Cover letter</a><a href="cyber-cv.html" aria-current="page">CV maker</a><a href="cyber-prices.html">All services</a></nav></div></div>
+<main>
+
+<section class="page-hero cyber-hero">
+  <div class="wrap">
+    <span class="eyebrow">GO-TECH Cyber</span>
+    <h1>CV maker</h1>
+    <p class="lead">Fill in your details, choose a design, and get a clean, professional CV. Save it as PDF or Word, or print it at GO-TECH Cyber.</p>
+    <p class="note">Step 2 of 2. Need a cover letter too? <a href="cyber-letter.html">Write it first with the cover letter maker</a> and your details carry over.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="cv-tool">
+      <form id="cv-form" class="cv-form" novalidate>
+        <fieldset class="pick">
+          <legend>Design</legend>
+          <label class="pill"><input type="radio" name="cvtpl" value="modern" checked><span>Modern (sidebar)</span></label>
+          <label class="pill"><input type="radio" name="cvtpl" value="classic"><span>Classic</span></label>
+          <label class="pill"><input type="radio" name="cvtpl" value="simple"><span>Simple</span></label>
+        </fieldset>
+        <fieldset class="pick">
+          <legend>Colour</legend>
+          <label class="pill"><input type="radio" name="cvcolor" value="navy" checked><span><i class="sw" style="background:#0B1A33"></i>Navy</span></label>
+          <label class="pill"><input type="radio" name="cvcolor" value="blue"><span><i class="sw" style="background:#0A5BDB"></i>Blue</span></label>
+          <label class="pill"><input type="radio" name="cvcolor" value="green"><span><i class="sw" style="background:#0F6B3A"></i>Green</span></label>
+          <label class="pill"><input type="radio" name="cvcolor" value="maroon"><span><i class="sw" style="background:#7A1F2B"></i>Maroon</span></label>
+          <label class="pill"><input type="radio" name="cvcolor" value="black"><span><i class="sw" style="background:#1A1A1A"></i>Black</span></label>
+        </fieldset>
+
+        <details class="cv-step" open>
+          <summary>1. Personal details</summary>
+          <div class="rep-grid">
+            <div class="field span2"><label for="cv-name">Full name</label><input id="cv-name" autocomplete="name" placeholder="e.g. Jane Wanjiru Mwangi"></div>
+            <div class="field span2"><label for="cv-title">Job title you want</label><input id="cv-title" placeholder="e.g. Accounts Assistant"></div>
+            <div class="field"><label for="cv-phone">Phone</label><input id="cv-phone" inputmode="tel" autocomplete="tel" placeholder="07XX XXX XXX"></div>
+            <div class="field"><label for="cv-email">Email</label><input id="cv-email" type="email" autocomplete="email" placeholder="name@gmail.com"></div>
+            <div class="field"><label for="cv-location">Town / county</label><input id="cv-location" placeholder="e.g. Limuru, Kiambu County"></div>
+            <div class="field"><label for="cv-extra">Other (optional)</label><input id="cv-extra" placeholder="e.g. LinkedIn link"></div>
+            <div class="field span2"><label for="cv-photo">Passport photo (optional, Modern and Classic designs)</label>
+              <div class="photo-row"><input id="cv-photo" type="file" accept="image/*"><button type="button" class="btn btn-ghost small" id="cv-photo-clear">Remove photo</button></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="cv-step" open>
+          <summary>2. Profile</summary>
+          <div class="field"><label for="cv-profile">About you (2–4 sentences)</label><textarea id="cv-profile" rows="4" placeholder="Who you are, your experience, and the job you're looking for."></textarea></div>
+        </details>
+
+        <details class="cv-step" open>
+          <summary>3. Work experience</summary>
+          <div id="list-experience"></div>
+          <button type="button" class="btn btn-ghost small" data-add="experience">+ Add a job</button>
+        </details>
+
+        <details class="cv-step" open>
+          <summary>4. Education</summary>
+          <div id="list-education"></div>
+          <button type="button" class="btn btn-ghost small" data-add="education">+ Add education</button>
+        </details>
+
+        <details class="cv-step" open>
+          <summary>5. Skills, languages and hobbies</summary>
+          <div class="rep-grid">
+            <div class="field"><label for="cv-skills">Skills (one per line)</label><textarea id="cv-skills" rows="5" placeholder="e.g. Customer service&#10;Microsoft Excel"></textarea></div>
+            <div class="field"><label for="cv-languages">Languages (one per line)</label><textarea id="cv-languages" rows="5" placeholder="e.g. English (fluent)&#10;Kiswahili (fluent)"></textarea></div>
+            <div class="field span2"><label for="cv-hobbies">Hobbies (optional)</label><input id="cv-hobbies" placeholder="e.g. Reading, football"></div>
+          </div>
+        </details>
+
+        <details class="cv-step" open>
+          <summary>6. Referees</summary>
+          <div id="list-referees"></div>
+          <button type="button" class="btn btn-ghost small" data-add="referees">+ Add a referee</button>
+        </details>
+
+        <div class="actions">
+          <button class="btn btn-primary" type="button" id="cv-print">Save as PDF / Print</button>
+          <button class="btn btn-ghost" type="button" id="cv-word">Download Word (.doc)</button>
+        </div>
+        <p class="form-note" id="cv-status" aria-live="polite"></p>
+        <div class="actions">
+          <button class="btn btn-ghost small" type="button" id="cv-example">Load example</button>
+          <button class="btn btn-ghost small" type="button" id="cv-clear">Clear form</button>
+        </div>
+        <p class="note">Your details stay on this device. Nothing is uploaded or saved, so clear the form when you finish on a shared computer.</p>
+      </form>
+
+      <div class="cv-preview-wrap">
+        <div class="cv-preview-head"><span class="mini-label">Live preview · A4</span><span class="cv-badge" id="cv-example-badge">Example: start typing to make yours</span></div>
+        <div class="cv-stage" id="cv-stage"><div class="cv-scale" id="cv-scale"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="split">
+      <div class="split-copy">
+        <span class="eyebrow">Need help?</span>
+        <h2>Let us write it for you</h2>
+        <p>Short on time or not sure what to write? Bring your certificates to GO-TECH Cyber or send your details on WhatsApp, and we'll write, format and print your CV and cover letter.</p>
+        <a class="btn btn-primary" href="contact.html#cyber" style="align-self:flex-start">Ask on WhatsApp</a>
+      </div>
+      <ul class="bring">
+        <li><b>Certificates</b><span>KCSE, college and any short courses</span></li>
+        <li><b>Work history</b><span>Employers, dates and what you did</span></li>
+        <li><b>Referees</b><span>Two or three names with phone numbers</span></li>
+        <li><b>Passport photo</b><span>Optional, we can take one here</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<script src="cv.js"></script>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="brand-col">
+      <a class="logo logo-lg" href="index.html" aria-label="GO-TECH home: Build, Brand, Grow"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span><span class="wm-tag">BUILD • BRAND • GROW</span></a>
+      <p>Bring your business online. Let it run smarter. Websites, systems, branding, printing and marketing from Limuru, Kenya.</p>
+    </div>
+    <div><h4>Services</h4><ul><li><a href="services.html#build">Build</a></li><li><a href="services.html#brand">Brand</a></li><li><a href="printing.html">Printing</a></li><li><a href="services.html#grow">Grow</a></li><li><a href="automation.html">Automation</a></li><li><a href="cyber.html">GO-TECH Cyber</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="customers.html">Customers</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-base"><span>© <span class="year">2026</span> GO-TECH. All rights reserved.</span><span>Limuru, Kiambu County</span></div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

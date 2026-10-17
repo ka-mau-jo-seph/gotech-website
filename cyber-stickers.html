@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>M-PESA Stickers · GO-TECH Cyber</title>
+<meta name="description" content="GO-TECH brings businesses online and automates their daily routines: websites, web apps, branding, graphic design, social media and advertising in Limuru, Kenya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem("gotech-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="GO-TECH home: Build, Brand, Grow"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span><span class="wm-tag">BUILD • BRAND • GROW</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul class="nav-links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="printing.html">Printing</a></li><li><a href="automation.html">Automation</a></li><li><a href="customers.html">Customers</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="cyber.html" class="nav-cyber" aria-current="page">GO-TECH Cyber</a></li></ul>
+      <a class="btn btn-primary nav-cta" href="contact.html">Get started</a>
+      <button class="theme-btn" type="button" aria-label="Switch to dark mode" title="Switch light / dark mode"><svg class="i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </nav>
+  </div>
+</header>
+<div class="cyber-subnav"><div class="wrap"><span class="cyber-badge small"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span> <b>Cyber</b></span><nav aria-label="GO-TECH Cyber pages"><a href="cyber.html">Overview</a><a href="cyber-government.html">Government</a><a href="cyber-kra.html">KRA & tax</a><a href="cyber-education.html">Education</a><a href="cyber-jobs.html">Jobs & documents</a><a href="cyber-print.html">Print & office</a><a href="cyber-stickers.html" aria-current="page">M-PESA stickers</a><a href="cyber-letter.html">Cover letter</a><a href="cyber-cv.html">CV maker</a><a href="cyber-prices.html">All services</a></nav></div></div>
+<main>
+
+<section class="page-hero cyber-hero">
+  <div class="wrap">
+    <span class="eyebrow">GO-TECH Cyber</span>
+    <h1>M-PESA sticker maker</h1>
+    <p class="lead">Make a clear payment sticker for your shop counter or door. Choose the type, enter your details, then download it or print it here.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="sticker-tool">
+      <form id="sticker-form" class="sticker-form" novalidate>
+        <fieldset class="pick">
+          <legend>Sticker type</legend>
+          <label class="pill"><input type="radio" name="stype" value="till" checked><span>Till (Buy Goods)</span></label>
+          <label class="pill"><input type="radio" name="stype" value="paybill"><span>Pay Bill</span></label>
+          <label class="pill"><input type="radio" name="stype" value="pochi"><span>Pochi la Biashara</span></label>
+          <label class="pill"><input type="radio" name="stype" value="send"><span>Send Money</span></label>
+          <label class="pill"><input type="radio" name="stype" value="agent"><span>M-PESA Agent</span></label>
+        </fieldset>
+
+        <div class="field" data-field="f-till"><label for="f-till">Till number</label><input id="f-till" inputmode="numeric" autocomplete="off" placeholder="e.g. 123456"></div>
+        <div class="field" data-field="f-paybill" hidden><label for="f-paybill">Business (Paybill) number</label><input id="f-paybill" inputmode="numeric" autocomplete="off" placeholder="e.g. 400200"></div>
+        <div class="field" data-field="f-account" hidden><label for="f-account">Account number</label><input id="f-account" autocomplete="off" placeholder="e.g. your phone number or house no."></div>
+        <div class="field" data-field="f-phone" hidden><label for="f-phone">Phone number</label><input id="f-phone" inputmode="numeric" autocomplete="off" placeholder="07XX XXX XXX"></div>
+        <div class="field-row">
+          <div class="field" data-field="f-agent" hidden><label for="f-agent">Agent number</label><input id="f-agent" inputmode="numeric" autocomplete="off" placeholder="e.g. 123456"></div>
+          <div class="field" data-field="f-store" hidden><label for="f-store">Store number</label><input id="f-store" inputmode="numeric" autocomplete="off" placeholder="e.g. 654321"></div>
+        </div>
+        <div class="field" data-field="f-name"><label for="f-name">Business name (optional)</label><input id="f-name" autocomplete="off" placeholder="e.g. WAMAINA GAS SUPPLIERS"></div>
+
+        <fieldset class="pick">
+          <legend>Colour</legend>
+          <label class="pill"><input type="radio" name="stheme" value="green" checked><span><i class="sw" style="background:#00843D"></i>Green</span></label>
+          <label class="pill"><input type="radio" name="stheme" value="blue"><span><i class="sw" style="background:#0A5BDB"></i>Blue</span></label>
+          <label class="pill"><input type="radio" name="stheme" value="mono"><span><i class="sw" style="background:#111111"></i>Black &amp; white</span></label>
+        </fieldset>
+
+        <fieldset class="pick">
+          <legend>Steps language</legend>
+          <label class="pill"><input type="radio" name="slang" value="sw" checked><span>Kiswahili</span></label>
+          <label class="pill"><input type="radio" name="slang" value="en"><span>English</span></label>
+        </fieldset>
+
+        <div class="field-row">
+          <div class="field"><span class="field-label">Paper size</span><span class="paper-tag">A4 landscape · 297 × 210 mm</span></div>
+          <div class="field check"><label for="f-footer"><input type="checkbox" id="f-footer" checked> Add "Generated by GO-TECH Cyber"</label></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" type="button" id="btn-download">Download PNG</button>
+          <button class="btn btn-ghost" type="button" id="btn-print">Print sticker</button>
+        </div>
+        <p class="form-note" id="sticker-status" aria-live="polite"></p>
+        <p class="note">Double-check every number with the customer before printing. A wrong number sends their customers' money to someone else.</p>
+      </form>
+
+      <div class="sticker-preview-wrap">
+        <span class="mini-label">Live preview</span>
+        <canvas id="sticker-preview" role="img" aria-label="Preview of the M-PESA sticker"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="split">
+      <div class="split-copy">
+        <span class="eyebrow">Printed for you</span>
+        <h2>Want it printed and laminated?</h2>
+        <p>Bring your details to GO-TECH Cyber or send them on WhatsApp. We'll print your sticker on durable paper or laminate it so it lasts on the counter.</p>
+        <a class="btn btn-primary" href="contact.html#cyber" style="align-self:flex-start">Order on WhatsApp</a>
+      </div>
+      <ul class="bring">
+        <li><b>Till / Buy Goods</b><span>Till number and business name</span></li>
+        <li><b>Pay Bill</b><span>Business number, account number and name</span></li>
+        <li><b>Pochi la Biashara</b><span>Phone number and name</span></li>
+        <li><b>Agent</b><span>Agent number, store number and agent name</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<img id="print-sticker" alt="">
+<script src="stickers.js"></script>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="brand-col">
+      <a class="logo logo-lg" href="index.html" aria-label="GO-TECH home: Build, Brand, Grow"><span class="wm"><span class="wm-go">GO-</span><span class="wm-tech">TECH</span></span><span class="wm-tag">BUILD • BRAND • GROW</span></a>
+      <p>Bring your business online. Let it run smarter. Websites, systems, branding, printing and marketing from Limuru, Kenya.</p>
+    </div>
+    <div><h4>Services</h4><ul><li><a href="services.html#build">Build</a></li><li><a href="services.html#brand">Brand</a></li><li><a href="printing.html">Printing</a></li><li><a href="services.html#grow">Grow</a></li><li><a href="automation.html">Automation</a></li><li><a href="cyber.html">GO-TECH Cyber</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="customers.html">Customers</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-base"><span>© <span class="year">2026</span> GO-TECH. All rights reserved.</span><span>Limuru, Kiambu County</span></div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
